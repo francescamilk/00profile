@@ -1,67 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
 
 body {
-  background-color: #F7F9FC;
+  background-color: #304068;
   font-family: 'Open Sans';
   font-weight: 300;
   text-align: center;
 }
 
 h1 {
-  color: #860954;
-  font-family: 'Permanent Marker';
-  font-size: 33px;
-  font-style: bold;
-}
-
-h2 {
-  color: #ad6c80;
-  font-family: 'Lora';
-  font-size: 16px;
+  color: #383727;
+  font-family: 'Roboto';
+  font-size: 20px;
 }
 
 p {
   color: #210215;
   font-size: 17px;
-  font-family: 'Lora';
-}
-
-a {
-  color: #898b8a;
-  text-decoration: none;
-  display: inline-block;
-}
-
-a:hover {
-  font-style: bold;
-}
-
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
-.list-inline > li {
-  display: inline-block;
-  font-size: 40px;
-  color: #F7F9FC;
-  padding: 0px 2px;
-}
-
-.subtitle{
-  font-style: italic;
-  letter-spacing: 5px;
-  line-height: 0px;
-  margin-bottom: 50px;
+  font-family: 'Roboto';
 }
 
 .container {
   width: 700px;
   margin: 40px auto;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 960px) {
@@ -80,18 +42,31 @@ a:hover {
   }
 }
 
-.img-circle {
-  border-radius: 50%;
+.screen {
+  background-image: url(images/nokia.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 482px;
+  height: 747px;
+  padding: 20px;
+  margin: 20px 0px;
+  text-align: center;
+  position: relative;
 }
 
-.text-center {
-  text-align: center;
+.text {
+  background-color: #878869;
+  width: 186px;
+  height: 150px;
+  border-radius: 5px;
+  position: absolute;
+  top: 199px;
+  left: 174px;
 }
-.card-white {
-  background-color: white;
+
+.card {
+  background-color: #304068;
   padding: 20px;
-  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
-  border-radius: 4px;
   margin: 20px 0px;
   text-align: center;
 }
@@ -102,4 +77,17 @@ a:hover {
   padding: 18px 18px;
   border-radius: 10px;
   margin-top: 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  font-size: 40px;
+  color: #F7F9FC;
+  padding: 0px 2px;
 }
