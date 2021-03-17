@@ -1,4 +1,4 @@
->> FIND ME ON <<
+// FIND ME ON
 https://francescamilk.github.io/profile/
 
 
