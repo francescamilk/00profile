@@ -78,9 +78,5 @@ p {
   display: inline-block;
   font-size: 40px;
   color: #F7F9FC;
-  padding: 0px 2px;
+  padding: 0px 15px;
 }
-
-/* -moz-transform: scale(0.8);
--webkit-transform: scale(0.8);
-transform: scale(0.8); */
