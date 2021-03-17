@@ -1,5 +1,10 @@
-I made this page for study purpose only.
+>> FIND ME ON <<
+https://francescamilk.github.io/profile/
 
+
+// CREDIT DISCLAIMER
+
+I made this page for study purpose only.
 Full credits for the vector to Gevorg Dallakyan.
 
 > https://dribbble.com/gevorg_dallakyan
