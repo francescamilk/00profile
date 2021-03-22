@@ -3,8 +3,9 @@
 body {
   background-color: #304068;
   font-family: 'Roboto';
-  text-align: center;
 }
+
+/* TEXT */
 
 h1 {
   color: #383727;
@@ -12,7 +13,7 @@ h1 {
 }
 
 p {
-  color: #210215;
+  color: #383727;
   font-size: 10px;
 }
 
@@ -20,10 +21,12 @@ a {
   color: #F7F9FC;
 }
 
+/* LAYOUT */
+
 .container {
-  margin: 40px auto;
   display: flex;
   justify-content: center;
+  margin: 40px auto;
 }
 
 .screen {
@@ -56,6 +59,8 @@ a {
   left: 265px;
 }
 
+/* FOOTER */
+
 .list-inline {
   padding-left: 0px;
   padding-right: 0px;
@@ -63,13 +68,21 @@ a {
 
 .list-inline > li {
   display: inline-block;
-  font-size: 30px;
+  font-size: 25px;
   padding: 0px 10px;
 }
+
+/* MEDIA QUERIES */
 
 @media (orientation: portrait) {
   .screen {
     width: 100vh;
     height: 100vh;
+  }
+  .text {
+    width: 203px;
+    height: 145px;
+    top: 39%;
+    left: 40%;
   }
 }
