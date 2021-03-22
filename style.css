@@ -8,7 +8,7 @@ body {
 
 h1 {
   color: #383727;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 p {
@@ -16,26 +16,14 @@ p {
   font-size: 10px;
 }
 
+a {
+  color: #F7F9FC;
+}
+
 .container {
   margin: 40px auto;
   display: flex;
   justify-content: center;
-}
-
-@media (max-width: 960px) {
-  .container {
-    width: 700px;
-  }
-}
-@media (max-width: 720px) {
-  .container {
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  .container {
-    width: 100%;
-  }
 }
 
 .screen {
@@ -53,10 +41,10 @@ p {
 .text {
   background-color: #878869;
   width: 110px;
-  height: 98px;
+  height: 92px;
   border-radius: 5px;
   position: absolute;
-  top: 130px;
+  top: 132px;
   left: 200px;
 }
 
@@ -69,18 +57,19 @@ p {
 }
 
 .list-inline {
-  list-style: none;
   padding-left: 0px;
   padding-right: 0px;
 }
 
 .list-inline > li {
   display: inline-block;
-  font-size: 40px;
-  color: #F7F9FC;
-  padding: 0px 2px;
+  font-size: 30px;
+  padding: 0px 10px;
 }
 
-/* -moz-transform: scale(0.8);
--webkit-transform: scale(0.8);
-transform: scale(0.8); */
+@media (orientation: portrait) {
+  .screen {
+    width: 100vh;
+    height: 100vh;
+  }
+}

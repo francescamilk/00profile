@@ -1,10 +1,13 @@
 const button = document.querySelector('.button');
 const text = document.querySelector('.text');
 
+const first = "<h1>Hi, my name is Francesca! <br> I'm a fullstack developer and...<br></h1><p>(1/2)</p>"
+const second = "<h1>now I know JavaScript and have to complete the text. Ouch!<br></h1><p>(2/2)</p>"
+
 button.addEventListener('click', () => {
-  if (text.innerHTML === "<h1>Hi, my name is Francesca! <br> I'm a fullstack developer and...<br></h1><p>(1/2)</p>") {
-    text.innerHTML = "<h1>now I know JavaScript and have to complete the text. Ouch!<br></h1><p>(2/2)</p>";
+  if (text.innerHTML === second) {
+    text.innerHTML = first;
   } else {
-    text.innerHTML = "<h1>Hi, my name is Francesca! <br> I'm a fullstack developer and...<br></h1><p>(1/2)</p>";
+    text.innerHTML = second;
   }
 });
