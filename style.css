@@ -3,9 +3,8 @@
 body {
   background-color: #304068;
   font-family: 'Roboto';
+  text-align: center;
 }
-
-/* TEXT */
 
 h1 {
   color: #383727;
@@ -13,20 +12,14 @@ h1 {
 }
 
 p {
-  color: #383727;
+  color: #210215;
   font-size: 10px;
 }
 
-a {
-  color: #F7F9FC;
-}
-
-/* LAYOUT */
-
 .container {
+  margin: 40px auto;
   display: flex;
   justify-content: center;
-  margin: 40px auto;
 }
 
 .screen {
@@ -44,11 +37,11 @@ a {
 .text {
   background-color: #878869;
   width: 110px;
-  height: 92px;
+  height: 98px;
   border-radius: 5px;
   position: absolute;
-  top: 132px;
-  left: 200px;
+  top: 26%;
+  left: 40%;
 }
 
 .button {
@@ -59,30 +52,27 @@ a {
   left: 265px;
 }
 
-/* FOOTER */
-
 .list-inline {
+  list-style: none;
   padding-left: 0px;
   padding-right: 0px;
 }
 
 .list-inline > li {
   display: inline-block;
-  font-size: 25px;
-  padding: 0px 10px;
+  font-size: 40px;
+  padding: 0px 15px;
 }
 
-/* MEDIA QUERIES */
+i {
+  color: #DDDCE1;
+}
 
 @media (orientation: portrait) {
-  .screen {
-    width: 100vh;
-    height: 100vh;
-  }
-  .text {
-    width: 203px;
-    height: 145px;
-    top: 39%;
-    left: 40%;
+  body {
+    position: relative;
+    right: 40em;
+    transform: scale(3);
+    transform-origin: 0 0;
   }
 }
