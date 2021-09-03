@@ -2,15 +2,12 @@
 > https://francescamilk.github.io/profile/
 
 <br>
-<br>
 
 // BRIEFING
 
 A simple personal page infused with early '00s nostalgia.
 
 <br>
-<br>
-
 
 // CREDIT DISCLAIMER
 
