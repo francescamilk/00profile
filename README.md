@@ -1,6 +1,13 @@
 // FIND ME ON
 > https://francescamilk.github.io/profile/
 
+<br>
+
+// BRIEFING
+
+A simple personal page infused with early '00s nostalgia.
+
+<br>
 
 // CREDIT DISCLAIMER
 
