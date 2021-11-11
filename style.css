@@ -76,4 +76,18 @@ i {
     transform: scale(3);
     transform-origin: 0 0;
   }
+
+  .screen {
+    height: 45vh;
+  }
+
+  .text {
+    top: 34%;
+    width: 136px;
+    height: 114px;
+  }
+
+  .text h1 {
+    font-size: 17px;
+  }
 }
